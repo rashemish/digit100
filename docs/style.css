@@ -190,13 +190,21 @@ margin: 10px 0;
 
 .textbox one{
 background-color: white;
-flex: 2;
-padding: 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
 border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 20px;
+width: 80%;
+display: flex;
+justify-content: space-between;
+}
+
+.column one {
+flex: 1;
+padding: 10px;
+}
+
+.column:not(:last-child) {
+border-right: 2px solid #ddd;
 }
 
 footer {
