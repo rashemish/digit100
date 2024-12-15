@@ -159,6 +159,46 @@ list-style-type: disc;
 padding-left: 20px;
 }
 
+.container one {
+display: flex;
+width: 50%;
+background-color: #fff;
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.images-column {
+display: flex;
+flex-direction: column;
+flex: 1;
+padding: 10px;
+border-radius: 10px;
+}
+
+.images-column img {
+width: 50%;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.divider one{
+width: 4px;
+background-color: #ddd;
+border-radius: 10px;
+margin: 10px 0;
+}
+
+.textbox one{
+background-color: white;
+flex: 2;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border-radius: 15px;
+}
+
 footer {
 font-family: quicksand, sans-serif;
 font-weight: 700;
