@@ -1,120 +1,173 @@
-
-nav {
-    background-color: lavender;
-    display: flex;
-
+body {
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+min-height: 40vh;
+background-color: #EFC7E5;
 }
 
-nav > ul.menuB {
-    list-style-type: none;
-    flex: 9;
-
+.navbar {
+display: flex;
+justify-content: space-evenly;
+background-color: transparent;
+width: 100%;
+padding: 30px 0;
 }
 
-nav ul.menuB li {
-    display: inline;
-    font-size: 1.5vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-top: 5vw;
-    padding-bottom: 10vw;
-
-
+.navbar a {
+font-family: "podium-soft-variable",sans-serif;
+font-variation-settings: 'wdth' 59;
+font-size: 80px;
+color: #C64191;
+text-decoration: none;
+font-size: 20px;
+padding: 8px 10px;
 }
 
-nav#menu {
-    padding: 2vw;
+.navbar a:hover {
+background-color: transparent;
+color: white;
 }
 
-.button {
-    border: 2px;
-    border-style: solid;
-    border-color: blue;
-    padding: 2vw;
-    background-color: #E6E6FA;
-    color: yellow;
-    width: 10%;
-    display: inline;
-    border-radius: 20px;
+.navbar-logo {
+width: 100px;
+height: 50px;
 }
 
-
-body section.writing {
-    background-color:HotPink
-;
-    margin:auto;
-    padding:2em;
-
-   display:flex;
-  
+.logo-link {
+margin-top: 2px;
 }
 
-section.writing figure {
-    flex:1;
-   padding: 3vw;
-    background-color:FloralWhite;
+h1{
+font-family: "podium-soft-variable",sans-serif;
+font-variation-settings: 'wdth' 155;
+color: #C64191;
+font-size: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top:200px;
+margin-bottom: 2px;
 }
 
-section.writing div.analysis {
-      flex:3; 
-
-    padding: 3vw;
-    background-color:black;
-    color:white;
-    
+h2{
+font-family: quicksand, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 45px;
+color: #FA7921;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-bottom: 150px;
+text-align: center;
 }
 
-body section.writing {
-    background-color:HotPink
-;
-    margin:auto;
-    padding:2em;
-
-   display:flex;
-  
+.divider {
+width: 100%;
+height: 100px;
+background-color: #D5D887;
+margin: 0;
 }
 
-section.writing figure {
-    flex:1;
-   padding: 3vw;
-    background-color:FloralWhite;
+.content-section {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+width: 80%;
 }
 
-section.writing div.analysis {
-      flex:3; 
-
-    padding: 3vw;
-    background-color:black;
-    color:white;
-    
+.content-section img {
+max-width: 40%;
+height: auto;
+margin-right: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
-body section.writing {
-    background-color:HotPink
-;
-    margin:auto;
-    padding:2em;
-
-   display:flex;
-
+.content-section .text-container {
+font-family: quicksand, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 30px;
+color: #FA7921;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+flex: 1;
+margin-left: 100px;
 }
 
-section.writing figure {
-    flex:1;
-   padding: 3vw;
-    background-color:FloralWhite;
+.textbox {
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 20px;
+width: 80%;
+display: flex;
+justify-content: space-between;
 }
 
-section.writing div.analysis {
-      flex:3; 
-
-    padding: 3vw;
-    background-color:black;
-    color:white;
-    
+.column {
+flex: 1;
+padding: 10px;
 }
 
-iframe.thinglink {width: 50vw;
+.column:not(:last-child) {
+border-right: 2px solid #ddd;
+}
 
-height: 70vh
+h4 {
+font-family: quicksand, sans-serif;
+font-weight: 700;
+font: bold;
+font-size: 14px;
+margin-top: 0;
+}
+
+h5 {
+font-family: quicksand, sans-serif;
+font-weight: 500;
+font: medium;
+font-size: 12px;
+margin-top: 0;
+}
+
+h6 {
+font-family: quicksand, sans-serif;
+font-weight: 400;
+font: regular;
+font-size: 12px;
+margin-top: 0;
+}
+
+ul {
+font-family: quicksand, sans-serif;
+font-weight: 300;
+font: light;
+font-size: 12px;
+list-style-type: disc;
+padding-left: 20px;
+}
+
+footer {
+font-family: quicksand, sans-serif;
+font-weight: 700;
+font-style: normal;
+width: 100%;
+text-align: center;
+padding: 10px;
+background-color: transparent;
+color: #C64191;
+position: relative;
+bottom: 0;
 }

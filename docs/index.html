@@ -1,90 +1,40 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        <style>
-            body {
-                background: LightSteelBlue;
-            }
-          </style>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/jno0zyl.css"/>
         
-        <iframe width="640" height="360" data-original-width="640" data-original-height="360" src="https://www.thinglink.com/view/scene/1902439637226357604" type="text/html" style="border: none;" webkitallowfullscreen mozallowfullscreen allowfullscreen scrolling="no"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
-        
-        <iframe width="640" height="360" src="https://www.thinglink.com/view/scene/1902439637226357604" style="border: none;"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>
-<!--some css:<style>
-                body {
-                    background: #679ff7 ;
-            }
-        
-            p { background: yellow; 
-                padding: 2em ;
-                
-            }
-            
-            nav. list {background:white; }
-            </style>-->
+        <title>DIGIT 100 Rashe M</title>
     </head>
-    <body>
-        <nav>
-                <a href="index.html"> Home </a>| 
-                <a href="gallery.html"> Gallery </a> |
-                <a href="resume.html"> Resume </a> |
-        </nav>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        
-<!--        <nav class="list"
-                <ul>
-                    <li><a href="index.html"">Home</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Resume</a></li>
-        -->
-        <h1>HTML for Dummies!</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <u><strong>inline</strong></u> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-            website</a>.</p>
-        <p>One of the best resources for learning HTML is <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <u><strong>block</strong></u> element designed to make a block on the
-            page.</p>
-        <h2>What are block elements good for?</h2>
-        <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted list.</p>
-        <ul>
-            <li>pears</li>
-            <li>apples</li>
-            <li>grapes</li>
-            <li>bananas</li>
-            <li>bluberries</li>
-        </ul>
-        
-        <img src="https://healthnewshub.org/wp-content/uploads/2022/10/Fruit-e1664894335635.jpg"/>
-        
-        <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar to the <q>unordered</q> list. 
-            You have to see the difference by viewing in a web browser.</p>
-        <ol>
-            <li>red</li>
-            <li>orange</li>
-            <li>yellow</li>
-            <li>green</li>
-            <li>blue</li>
-        </ol>
-        <figure>
-            <img src="images/newt-mosaic4.png"/>
-            <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a href="https://newtfire.org">newtfire.org</a></figcaption>
-        </figure> 
+    <body> 
+        <div class="navbar">
+            <div class="logo-link">
+                <a href="index.html">
+                    <img src="" alt="Rashe Mishra's Logo" class="navbar-logo"/>
+                </a>
+            </div>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="resume.html">RESUME</a>
+            <a href="projects.html">DIGIT PROJECTS</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+        </div>  
+        <div class="header-section">
+            <h1>Hello!</h1>
+            <h2>WELCOME TO RASHE'S DIGIT 100 HUB</h2>
+        </div>       
+        <div class="divider"></div>        
+        <div class="content-section">
+            <img src="images/rashem.jpg" alt="rashe mishra"/>
+                <div class="text-container">
+                    <h3>HI, MY NAME IS RASHE! THANKS FOR CHECKING OUT MY WEBSITE</h3>
+                </div>
+        </div>       
+        <footer>
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/rashemish/digit100">DIGIT 100 RM Hub</a> by <span property="cc:attributionName">Rashe Mishra</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a></p>
+        </footer>
+<!--  <iframe width="640" height="360" src="https://www.thinglink.com/view/scene/1902439637226357604" style="border: none;"></iframe><script async src="//cdn.thinglink.me/jse/responsive.js"></script>-->
     </body>
 </html>
