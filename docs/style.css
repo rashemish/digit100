@@ -136,7 +136,7 @@ justify-content: space-between;
 flex: 2;
 padding: 20px;
 display: block;
-text-align: left;
+text-align: center;
 border-radius: 15px;
 }
 
@@ -223,8 +223,18 @@ font-family: quicksand, sans-serif;
 font-weight: 500;
 font: medium;
 font-size: 12px;
-color: #FA7921;
+color: black;
+margin-left: 50px;
+margin-right: 50px;
 margin-top: 10px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+iframe{
+width: 940px;
+height: 600px;
 }
 
 footer {
