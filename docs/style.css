@@ -76,6 +76,13 @@ margin-top: 10px;
 text-align: center;
 }
 
+figcaption{
+font-family: quicksand, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 15px;
+}
+
 .divider {
 width: 100%;
 height: 100px;
@@ -179,11 +186,14 @@ width: 90%;
 background-color: transparent;
 }
 
-.images-column {
+.images-column .svg-image {
+width: 100%;
+height: auto;
+border-radius: 10px;
+margin-bottom: 10px;
 display: flex;
 flex-direction: column;
-flex: 1;
-padding: 10px;
+flex:1;
 }
 
 .images-column img {
